@@ -1,0 +1,685 @@
+@charset "utf-8";
+
+body {
+    font-family: “游ゴシック体“, YuGothic, “游ゴシック Medium”, “Yu Gothic Medium”,
+        “游ゴシック“, “Yu Gothic”, sans-serif;
+    background-image: url(../images/img-background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+}
+
+/* ヘッター */
+.header {
+    width: 1040px;
+    height: 40px;
+    margin: auto;
+}
+
+.logo {
+    width: 500px;
+    margin: auto;
+}
+
+.logo img {
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* メインビジュアル */
+.main-visual {
+    width: 1040px;
+    margin: auto;
+}
+
+.main-visual-image {
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.main-visual-image img {
+    width: 100%;
+    margin: auto;
+}
+
+.main-navigation {
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.main-navigation ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.main-navigation ul li {
+    text-align: center;
+}
+
+.main-navigation ul li a {
+    color: #0d1500;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 2px;
+    transition: all 0.4s;
+    border-bottom: white solid;
+}
+
+.main-navigation ul li a:hover {
+    border-bottom: #0d1500 solid;
+}
+
+.main-top {
+    margin: auto;
+    padding-top: 50px;
+}
+
+/* ライブ */
+.lives {
+    width: 1040px;
+    margin: auto;
+}
+
+.lives h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #0d1500;
+    letter-spacing: 2px;
+    padding-top: 120px;
+}
+
+.live-box {
+    width: 1040px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.lives-days {
+    display: flex;
+    justify-content: start;
+    margin-bottom: -30px;
+}
+
+.lives-days p {
+    font-size: 30px;
+    color: #0d1500;
+    padding-top: 26px;
+}
+
+.lives-days h2 {
+    font-size: 16px;
+    color: #0d1500;
+    padding-left: 10px;
+    padding-top: 32px;
+    font-weight: 100;
+}
+
+.lives-days h3 {
+    font-size: 24px;
+    font-weight: 100;
+    padding-left: 15px;
+    color: #0d1500;
+    padding-top: 24px;
+}
+
+.live-box p {
+    font-size: 20px;
+    color: #0d1500;
+    padding-bottom: 30px;
+}
+
+.lives-contents {
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    padding-left: 174px;
+}
+
+/* ディスコグラフィー */
+.discography-header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    background-color: rgba(241, 241, 241, 0.95)
+}
+
+.discography-logo {
+    width: 20%;
+}
+
+.discography-logo img {
+    width: 240px;
+    padding-left: 50px;
+    padding-top: 50px;
+    letter-spacing: 5px;
+}
+
+.discography-navigation {
+    width: 80%;
+}
+
+.discography-navigation ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding-top: 78px;
+}
+
+.discography-navigation ul li {
+    padding-right: 28px;
+    margin-bottom: 8px;
+}
+
+.discography-navigation ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0d1500;
+}
+
+.discography-navigation ul li a:hover {
+    border-bottom: #0d1500 solid;
+}
+
+.discography {
+    width: 1040px;
+    margin: auto;
+}
+
+.discography h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #0d1500;
+    letter-spacing: 2px;
+    padding-top: 120px;
+}
+
+.music-navigation {
+    width: 400px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.music-navigation ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.music-navigation ul li {
+    width: 100%;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.music-navigation ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0d1500;
+    text-decoration: none;
+    border-bottom: white solid;
+}
+
+.music-navigation ul li a:hover {
+    border-bottom: #0d1500 solid;
+}
+
+.all-music {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.all-music a {
+    text-decoration: none;
+}
+
+.music-box {
+    width: 400px;
+    padding-left: 48px;
+    padding-bottom: 42px;
+    padding-top: 20px;
+}
+
+.music-box img {
+    width: 300px;
+    border-radius: 1px;
+    padding-bottom: 20px;
+}
+
+.music-box h2 {
+    font-size: 20px;
+    color: #4a4a4a;
+    font-weight: bolder;
+}
+
+.music-box p {
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+/* アルバム */
+.album-music {
+    width: 1040px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.album {
+    width: 100%;
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.album img {
+    width: 50%;
+}
+
+.album-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #f5f5f5; */
+    margin-top: 68px;
+    margin-left: 30px;
+    margin-bottom: 64px;
+}
+
+.album-contents {
+    padding-left: 24px;
+    padding-top: 30px;
+}
+
+.album-contents h1 {
+    color: #0d1500;
+    font-size: 26px;
+}
+
+.album-contents p {
+    color: #0d1500;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.album-box {
+    padding-top: 30px;
+    padding-left: 24px;
+}
+
+.album-box p {
+    font-size: 14px;
+    color: #0d1500;
+}
+
+/* ニュース */
+.news h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #0d1500;
+    letter-spacing: 2px;
+}
+
+.news {
+    width: 1040px;
+    margin: auto;
+}
+
+.news ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    padding-left: 174px;
+}
+
+.news ul li {
+    list-style: none;
+}
+
+.news ul li a {
+    text-decoration: none;
+}
+
+.data {
+    display: flex;
+    justify-content: start;
+}
+
+.title {
+    font-size: 30px;
+    color: #4a4a4a;
+    padding-top: 30px;
+}
+
+.days {
+    font-size: 16px;
+    color: #4a4a4a;
+    padding-left: 10px;
+    padding-top: 46px;
+}
+
+.contents {
+    font-size: 20px;
+    color: #4a4a4a;
+    padding-bottom: 30px;
+}
+
+.line {
+    border: #dcdcdc 0.5px solid;
+    margin-top: -25px;
+    width: 80%;
+}
+
+/* ムービー */
+.movie {
+    width: 1040px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.movie h1 {
+    padding-top: 95px;
+    padding-bottom: 66px;
+    text-align: center;
+    font-size: 40px;
+    color: #0d1500;
+    letter-spacing: 2px;
+}
+
+.movie-box {
+    width: 1040px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.movie-img {
+    width: 520px;
+    padding: 40px 40px 40px 40px;
+}
+
+.movie-img img {
+    width: 100%;
+}
+
+.movie-img p {
+    text-align: left;
+    font-size: 16px;
+    color: #0d1500;
+    padding-top: 16px;
+}
+
+/* バイオグラフィー */
+.biography {
+    width: 1040px;
+    margin: auto;
+}
+
+.biography h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #0d1500;
+    letter-spacing: 2px;
+    padding-top: 120px;
+}
+
+.member-img {
+    width: 1040px;
+    margin: auto;
+}
+
+.member-img img {
+    width: 100%;
+}
+
+.member-career {
+    width: 100%;
+}
+
+.member-career-box {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.member-career-box p {
+    font-size: 16px;
+    font-weight: 100;
+    color: #0d1500;
+    padding-left: 20px;
+    text-align: left;
+    line-height: 1.6;
+    padding-top: 45px;
+}
+
+.career-day {
+    width: 18%;
+}
+
+.career-contents {
+    width: 82%;
+}
+
+.member {
+    width: 1040px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+.member img {
+    width: 750px;
+    margin: auto;
+}
+
+.member p {
+    font-size: 18px;
+    color: #0d1500;
+    padding-left: 148px;
+    font-weight: bold;
+}
+
+.member-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.sns {
+    display: flex;
+    padding-right: 145px;
+}
+
+.sns img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.member-list {
+    display: flex;
+    margin: auto;
+}
+
+.member-list h2 {
+    font-size: 18px;
+    color: #0d1500;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-top: 14px;
+}
+
+.member-list h3 {
+    font-size: 30px;
+    color: #0d1500;
+    font-weight: bolder;
+    padding-left: 5px;
+}
+
+/* スライダー */
+.slider {
+    width: 1040px;
+}
+
+.slider iframe {
+    padding-left: 100px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+    /*黒にする*/
+    opacity: 1;
+    /*デフォルトは.75が指定されている*/
+}
+
+/* セカンドコンテンツ */
+.live {
+    width: 1040px;
+    margin: auto;
+}
+
+.live h1 {
+    color: #0d1500;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.live ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.live ul li {
+    list-style: none;
+    padding-top: 45px;
+    padding-left: 174px;
+}
+
+.live ul li a {
+    text-decoration: none;
+}
+
+.live-data {
+    display: flex;
+    justify-content: start;
+}
+
+.live-year {
+    font-size: 20px;
+    color: #4a4a4a;
+}
+
+.live-days {
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 5px;
+    color: #4a4a4a;
+}
+
+.live-contents {
+    font-size: 18px;
+    color: #4a4a4a;
+}
+
+.live-line {
+    border: #dcdcdc 0.5px solid;
+    margin-top: 5px;
+    width: 80%;
+}
+
+.fc-news {
+    width: 1040px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.fc-news h1 {
+    color: #0d1500;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding-top: 100px;
+}
+
+.fc-news-top {
+    padding-top: 45px;
+    padding-left: 174px;
+}
+
+.fc-news-data {
+    display: flex;
+    justify-content: start;
+}
+
+.fc-news-title {
+    font-size: 20px;
+    color: #4a4a4a;
+}
+
+.fc-news-days {
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 5px;
+    color: #4a4a4a;
+}
+
+.fc-news-contents {
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.fc-news-line {
+    border: #dcdcdc 0.5px solid;
+    margin-top: 5px;
+    width: 80%;
+}
+
+/* フッター */
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-end {
+    width: 50%;
+}
+
+.footer-end img {
+    width: 25%;
+    padding-left: 40px;
+}
+
+.footer-end p {
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.footer-contents {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 90px;
+}
+
+.footer-contents img {
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
